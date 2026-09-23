@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Voice Changer — transform your voice with 33+ effects, AI speech, reverse audio, prank sounds, and more on iPhone." />
+  <title>Voice Changer — AI Voice Effects</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&family=Sora:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <nav class="site-nav" aria-label="Primary">
+    <div class="wrap site-nav__inner">
+      <a class="brand" href="index.html">
+        <span class="brand__mark" aria-hidden="true">🎙</span>
+        Voice Changer
+      </a>
+      <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Menu">☰</button>
+      <ul class="nav-links" data-nav-menu>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="terms.html">Terms</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="wrap hero__grid">
+      <div>
+        <p class="hero__eyebrow reveal">
+          <span class="dot" aria-hidden="true"></span>
+          iOS · Voice &amp; audio
+        </p>
+        <h1 class="reveal reveal-delay-1">
+          Your voice,<br />
+          <em>any character.</em>
+        </h1>
+        <p class="hero__lead reveal reveal-delay-2">
+          Record, transform, and share with 33+ effects, AI voices, reverse audio, prank sounds, and trim tools — built for iPhone.
+        </p>
+        <div class="hero__cta reveal reveal-delay-3">
+          <a class="btn btn--primary" href="https://apps.apple.com/app/id0000000000" rel="noopener">
+            Download on the App Store
+          </a>
+          <a class="btn btn--ghost" href="support.html">Get support</a>
+        </div>
+      </div>
+
+      <div class="reveal reveal-delay-2">
+        <div class="code-window" aria-hidden="true">
+          <div class="code-window__bar">
+            <span class="code-window__dot code-window__dot--r"></span>
+            <span class="code-window__dot code-window__dot--y"></span>
+            <span class="code-window__dot code-window__dot--g"></span>
+            <span class="code-window__title">VoiceEffect.swift</span>
+          </div>
+          <pre class="code-window__body"><code><span class="code-line"><span class="kw">func</span> <span class="fn">apply</span>(effect: <span class="str">VoiceEffect</span>) {</span>
+<span class="code-line">  <span class="cm">// pitch · reverb · distortion</span></span>
+<span class="code-line">  engine.<span class="fn">setPitch</span>(effect.pitch)</span>
+<span class="code-line">  engine.<span class="fn">setReverb</span>(effect.room)</span>
+<span class="code-line">  <span class="kw">return</span> render(<span class="str">"live"</span>)</span>
+<span class="code-line">}</span>
+<span class="code-line cursor-blink"><span class="cm">// 33+ presets ready</span></span>
+</code></pre>
+        </div>
+
+        <div class="phone-mock">
+          <div class="phone-mock__frame">
+            <div class="phone-mock__screen">
+              <div class="phone-mock__header">
+                <span>Voice Changer</span>
+                <span class="phone-mock__badge">Live</span>
+              </div>
+              <div class="phone-mock__body">
+                <div class="wave-wrap" aria-hidden="true">
+                  <span class="wave-bar"></span><span class="wave-bar"></span><span class="wave-bar"></span>
+                  <span class="wave-bar"></span><span class="wave-bar"></span><span class="wave-bar"></span>
+                  <span class="wave-bar"></span><span class="wave-bar"></span><span class="wave-bar"></span>
+                  <span class="wave-bar"></span><span class="wave-bar"></span><span class="wave-bar"></span>
+                </div>
+                <div class="effect-row" data-effect-chips>
+                  <span class="effect-chip is-active">Robot</span>
+                  <span class="effect-chip">Helium</span>
+                  <span class="effect-chip">Echo</span>
+                  <span class="effect-chip">Monster</span>
+                </div>
+                <div class="mock-rec" aria-hidden="true"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="section" id="features">
+    <div class="wrap">
+      <span class="section__label reveal">001 — Features</span>
+      <h2 class="section__title reveal">Everything you need to<br /><em>play with voice.</em></h2>
+      <p class="section__subtitle reveal">
+        Real-time effects, AI speech, reverse audio, and more — designed for creators and prank lovers.
+      </p>
+      <div class="features">
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true">🎛</div>
+          <h3>33+ voice effects</h3>
+          <p>Robot, helium, monster, echo, and more — tune intensity and A/B compare before you share.</p>
+        </article>
+        <article class="card reveal reveal-delay-1">
+          <div class="card__icon" aria-hidden="true">🤖</div>
+          <h3>AI text to speech</h3>
+          <p>Type anything and hear it in natural voices — on-device Apple voices or cloud providers when configured.</p>
+        </article>
+        <article class="card reveal reveal-delay-2">
+          <div class="card__icon" aria-hidden="true">⏪</div>
+          <h3>Reverse voice</h3>
+          <p>Record or import audio, flip it, and play or share the reversed track in seconds.</p>
+        </article>
+        <article class="card reveal reveal-delay-3">
+          <div class="card__icon" aria-hidden="true">😂</div>
+          <h3>Prank sounds</h3>
+          <p>Browse categories of procedural prank sounds, favorite the ones you love, and share instantly.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true">✂</div>
+          <h3>Audio &amp; video trim</h3>
+          <p>Trim clips with precision, apply voice effects to video audio, then export or save to Photos.</p>
+        </article>
+        <article class="card reveal reveal-delay-1">
+          <div class="card__icon" aria-hidden="true">✨</div>
+          <h3>Voice Changer Pro</h3>
+          <p>Unlock premium effects and an ad-free experience with a weekly subscription after a free trial.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="pricing-banner reveal">
+        <h2>Voice Changer Pro</h2>
+        <p>
+          Start with a 3-day free trial, then continue with a weekly subscription.
+          Cancel anytime in your Apple ID settings — no hidden fees.
+        </p>
+        <a class="btn btn--ghost" href="terms.html#subscriptions">View subscription terms</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 0;">
+    <div class="wrap">
+      <p class="disclaimer-banner reveal">
+        Voice Changer is an independent app by Ammad Razzaq. Microphone and speech permissions are used only for recording and on-device features you choose. Ads may appear for free users via Google AdMob.
+      </p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap site-footer__inner">
+      <a class="brand" href="index.html">
+        <span class="brand__mark" aria-hidden="true">🎙</span>
+        Voice Changer
+      </a>
+      <ul class="footer-links">
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms of Service</a></li>
+        <li><a href="support.html">Support</a></li>
+      </ul>
+      <small>© <span id="year"></span> Ammad Razzaq. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="js/site.js"></script>
+</body>
+</html>
